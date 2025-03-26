@@ -10,7 +10,7 @@ public static void main(String[] args) {
     ReceiptService receipt1 = new ReceiptService();
     receipt1.addProduct(new Product("book", 12.49, false, true));
     receipt1.addProduct(new Product("music CD", 14.99, false, false));
-    receipt1.addProduct(new Product("chocolate bar", 0.85, false, true));
+    receipt1.addProduct(new Product("chocolate bar ", 0.85, false, true));
     receipt1.printReceipt();
 
     // Input 2:
